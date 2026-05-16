@@ -10,7 +10,7 @@ public class Basic {
         map.put(4,"Four");
 
         for(Map.Entry<Integer,String> entry : map.entrySet() ){
-            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+            System.out.println("Key: " + entry.getKey() + " , Value: " + entry.getValue());
         }
     }
 }
