@@ -60,6 +60,7 @@ public class SqrtUsingBinarySearch {
         return result;
     }
     static void main(String[] args) {
+
         System.out.println("Sqrt of n: " + sqrt(56));
     }
 }
