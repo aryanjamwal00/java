@@ -1,15 +1,3 @@
-class InfiniteArray{
-private int[] arr;
-
-public InfiniteArray(int[] nums){
-this.arr=nums;
-}
-public int get(int index){
-if(index >= arr.length) return Integer.MAX_VALUE;
-return arr[index];
-}
-}
-
 public class UnboundedSearch {
     static int unBoundSearch(InfiniteArray arr,int target){
         if(arr.get(0) == target) return 0;
