@@ -1,5 +1,5 @@
 public class ListNode {
-    private ListNode next;
+    ListNode next;
 
     public ListNode solve(ListNode prev,ListNode curr){
         //base case
