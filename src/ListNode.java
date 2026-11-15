@@ -1,7 +1,9 @@
 public class ListNode {
+
+    public Object val;
     ListNode next;
 
-    public ListNode solve(ListNode prev,ListNode curr){
+    public ListNode solve(ListNode prev, ListNode curr){
         //base case
         if(curr == null){
             return prev;
